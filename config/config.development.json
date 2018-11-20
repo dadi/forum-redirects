@@ -1,0 +1,19 @@
+{
+  "global": {
+    "site": "Forum Redirects",
+    "description": "An exciting end."
+  },
+  "globalEvents": [
+    "global"
+  ],
+  "server": {
+    "host": "127.0.0.1",
+    "port": 6001
+  },
+  "rewrites": {
+    "path": "workspace/routes/rewrites.txt"
+  },
+  "cluster": false,
+  "allowDebugView": true,
+  "debug": true
+}
